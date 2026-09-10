@@ -1,0 +1,23 @@
+# RATISS One — dependances
+# (torch est installe separement — variante CPU ou GPU selon la cible)
+
+# coeur topologique
+numpy>=1.26
+scipy>=1.11
+
+# moteur de generation
+transformers>=4.44
+
+# API (serveur)
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.6
+
+# visualisation (schemas docs)
+matplotlib>=3.8
+
+# tests
+pytest>=8.0
+
+# recherche web (fallback sans cle)
+requests>=2.31
