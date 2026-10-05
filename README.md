@@ -4,11 +4,11 @@
 
 [![RATISS Labs](https://img.shields.io/badge/RATISS_Labs-Deep_Tech_Sovereign-06b6d4)](https://github.com/jonathansearch)
 
-# RATIS — Modèle de Compréhension Topologique (MCT)
+# RATIS — Topological Understanding Model (TUM)
 
-**RATIS est un MCT : l'évolution du modèle de langage vers une architecture de compréhension structurelle.**
+**RATIS is a TUM: the evolution of the language model toward a structural-understanding architecture.**
 
-> Un modèle de langage classique prédit le mot le plus probable. RATIS conserve cette capacité de génération et y ajoute l'organe qui lui manque : la **mesure de sa propre cohérence structurelle**. Là où un modèle conventionnel hallucine, RATIS détecte l'incohérence et se replie. Là où il devine, RATIS prouve.
+> A classic language model predicts the most probable word. RATIS keeps that generation capability and adds the organ it lacks: the **measurement of its own structural coherence**. Where a conventional model hallucinates, RATIS detects the inconsistency and folds back. Where it guesses, RATIS proves.
 
 [![Nature](https://img.shields.io/badge/architecture-MCT%20%E2%80%94%20compr%C3%A9hension%20topologique-3fb950)](ratiss_skynet/docs/MCT.md)
 [![Loi fondatrice](https://img.shields.io/badge/loi-LCT%20%3A%20R%20%3D%20P__sig-4f9cff)](#)
@@ -18,85 +18,85 @@
 [![Licence](https://img.shields.io/badge/licence-propri%C3%A9taire-d97706)](#)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0000--4092--5313-a6ce39)](https://orcid.org/0009-0000-4092-5313)
 
-Projet dirigé par **Jonathan Evina** (RATIS Labs, Cameroun).
-Propriété intellectuelle : **JOHNKING0 & Jonathan Evina**.
+Project led by **Jonathan Evina** (RATIS Labs, Cameroon).
+Intellectual property: **JOHNKING0 & Jonathan Evina**.
 
-**Principes directeurs** : itération permanente — transdisciplinarité — démonstration par le fonctionnement.
-
----
-
-![Architecture HYBRID MIND](ratiss_skynet/docs/images/hybrid_mind_architecture.png)
+**Guiding principles**: permanent iteration — transdisciplinarity — demonstration by operation.
 
 ---
 
-## Architecture : HYBRID MIND
+![HYBRID MIND architecture](ratiss_skynet/docs/images/hybrid_mind_architecture.png)
 
-Une architecture unifiée, implémentée dans [`ratiss_skynet/skynet/hybrid_mind.py`](ratiss_skynet/skynet/hybrid_mind.py). Six capacités intégrées, ordonnées selon le pipeline de traitement :
+---
 
-| # | Capacité | Fonction | Principe |
+## Architecture: HYBRID MIND
+
+A unified architecture, implemented in [`ratiss_skynet/skynet/hybrid_mind.py`](ratiss_skynet/skynet/hybrid_mind.py). Six integrated capabilities, ordered along the processing pipeline:
+
+| # | Capability | Function | Principle |
 |---|---|---|---|
-| 0 | **RESSENTIR** | Corps thermodynamique simulé | L'état émotionnel module les paramètres de génération |
-| 1 | **COMPRENDRE** | Extraction de concepts et faits vérifiés bilingues | Ancrage anti-hallucination |
-| 2 | **PARLER** | Génération guidée par la cohérence topologique | Moteur RATISS One + sélection LCT |
-| 3 | **RÉGÉNÉRER** | Repliement cristallin en cas de rupture du motif | KTN:Li, seuil modulé par la tension |
-| 4 | **BOUCLE FERMÉE** | Score de confiance topologique (0–100 %) | Auditabilité en temps réel |
-| 5 | **PROUVER** | Empreinte SHA-256 du sous-graphe actif | Reproductibilité et traçabilité |
+| 0 | **FEEL** | Simulated thermodynamic body | The emotional state modulates the generation parameters |
+| 1 | **UNDERSTAND** | Extraction of bilingual concepts and verified facts | Anti-hallucination grounding |
+| 2 | **SPEAK** | Generation guided by topological coherence | RATISS One engine + LCT selection |
+| 3 | **REGENERATE** | Crystalline folding upon pattern rupture | KTN:Li, threshold modulated by tension |
+| 4 | **CLOSED LOOP** | Topological confidence score (0–100 %) | Real-time auditability |
+| 5 | **PROVE** | SHA-256 fingerprint of the active subgraph | Reproducibility and traceability |
 
-### Modules de recherche
+### Research modules
 
-| Module | Fonction | Statut |
+| Module | Function | Status |
 |---|---|---|
-| `rlm_layer.py` | Décomposition récursive et repliement cristallin par maillon faible | Validé |
-| `quantum_select.py` | Amplification d'amplitude vers les candidats cohérents | Validé (1/8 → p = 0,76) |
-| `arc_induction.py` | Induction de règles inconnues en trois exemples | Démontré |
-| `memory.py` | Mémoire épisodique, sémantique et procédurale sur chaîne SHA-256 | Démontré |
-| `planner.py` | Planification par chemin de persistance (TPP/MSTM/RTD/PNE) | Démontré |
+| `rlm_layer.py` | Recursive decomposition and crystalline folding at the weakest link | Validated |
+| `quantum_select.py` | Amplitude amplification toward the coherent candidates | Validated (1/8 → p = 0.76) |
+| `arc_induction.py` | Induction of unknown rules from three examples | Demonstrated |
+| `memory.py` | Episodic, semantic and procedural memory on a SHA-256 chain | Demonstrated |
+| `planner.py` | Planning by persistence path (TPP/MSTM/RTD/PNE) | Demonstrated |
 
-**Évaluation selon les dix conditions d'une intelligence artificielle générale** : neuf conditions démontrées, une volontairement différée (perception multimodale). Analyse détaillée dans [`artifacts/RAPPORT_AGI.md`](ratiss_skynet/artifacts/RAPPORT_AGI.md).
+**Evaluation against the ten conditions of artificial general intelligence**: nine conditions demonstrated, one voluntarily deferred (multimodal perception). Detailed analysis in [`artifacts/RAPPORT_AGI.md`](ratiss_skynet/artifacts/RAPPORT_AGI.md).
 
-**Principe central : la génération guidée par la LCT.** Le moteur propose plusieurs candidats ; la topologie — la signature de persistance **P_sig** du graphe de corrélations — sélectionne le plus cohérent. La loi est invariante : `R = P_sig`, `ΔW = η·φ·P_sig·C`.
+**Core principle: LCT-guided generation.** The engine proposes several candidates; the topology — the **P_sig** persistence signature of the correlation graph — selects the most coherent one. The law is invariant: `R = P_sig`, `ΔW = η·φ·P_sig·C`.
 
 ---
 
-## Démonstration par le fonctionnement
+## Demonstration by operation
 
-| Requête | Génération non guidée | Génération guidée (HYBRID MIND) | Résultat |
+| Query | Unguided generation | Guided generation (HYBRID MIND) | Result |
 |---|---|---|---|
-| *What is a black hole?* (EN) | cohérence 65 | **cohérence 97,5** | amélioration |
-| *Qu'est-ce qu'un trou noir ?* (FR) | boucle de répétition | **cohérence 36 → 117, boucle interrompue** | amélioration |
-| *Raconte une histoire de dragon.* (FR) | boucle de répétition | **unicité 0,42 → 0,85, boucle interrompue** | amélioration |
+| *What is a black hole?* (EN) | coherence 65 | **coherence 97.5** | improvement |
+| *Qu'est-ce qu'un trou noir ?* (FR) | repetition loop | **coherence 36 → 117, loop interrupted** | improvement |
+| *Raconte une histoire de dragon.* (FR) | repetition loop | **uniqueness 0.42 → 0.85, loop interrupted** | improvement |
 
-Dans les trois cas, la sélection topologique **interrompt les boucles de répétition** du moteur et **augmente la cohérence**. La fusion ne confère pas de connaissances nouvelles au modèle ; elle **stabilise et sélectionne** sa production.
+In all three cases, the topological selection **interrupts the engine's repetition loops** and **increases coherence**. The fusion does not confer new knowledge to the model; it **stabilizes and selects** its output.
 
 ---
 
-## Structure du dépôt
+## Repository structure
 
 ```
 ratiss-Skynet/
-├── models/                         # moteur de génération RATISS One (Git LFS)
-└── ratiss_skynet/                  # code source et preuves
+├── models/                         # RATISS One generation engine (Git LFS)
+└── ratiss_skynet/                  # source code and evidence
     ├── skynet/
-    │   ├── hybrid_mind.py          # architecture unifiée (pipeline complet)
-    │   ├── identity.py             # identité RATIS scellée SHA-256
-    │   ├── confidence.py           # boucle fermée (confiance 0–100 %)
-    │   ├── thermo_emotions.py      # émotions thermodynamiques
-    │   ├── memory.py               # mémoire chaînée infalsifiable
-    │   ├── reasoning.py            # détection de contradiction, honnêteté
-    │   ├── safety.py               # garde-fou, journal d'audit
-    │   ├── planner.py              # planificateur topologique
-    │   ├── arc_induction.py        # induction de règles few-shot
-    │   ├── rlm_layer.py            # décomposition récursive × KTN:Li
-    │   └── quantum_select.py       # sélection amplifiée (recherche)
-    ├── training/                   # protocole d'entraînement figé (LCT)
-    ├── docs/                       # documentation complète
-    ├── scripts/                    # diagnostics, démonstrations, tests
-    └── artifacts/                  # rapports JSON et preuves SHA-256
+    │   ├── hybrid_mind.py          # unified architecture (full pipeline)
+    │   ├── identity.py             # RATIS identity sealed SHA-256
+    │   ├── confidence.py           # closed loop (confidence 0–100 %)
+    │   ├── thermo_emotions.py      # thermodynamic emotions
+    │   ├── memory.py               # tamper-proof chained memory
+    │   ├── reasoning.py            # contradiction detection, honesty
+    │   ├── safety.py               # guardrail, audit log
+    │   ├── planner.py              # topological planner
+    │   ├── arc_induction.py        # few-shot rule induction
+    │   ├── rlm_layer.py            # recursive decomposition × KTN:Li
+    │   └── quantum_select.py       # amplified selection (research)
+    ├── training/                   # frozen training protocol (LCT)
+    ├── docs/                       # full documentation
+    ├── scripts/                    # diagnostics, demonstrations, tests
+    └── artifacts/                  # JSON reports and SHA-256 proofs
 ```
 
-**Documentation complète : [`ratiss_skynet/docs/README.md`](ratiss_skynet/docs/README.md)**
+**Full documentation: [`ratiss_skynet/docs/README.md`](ratiss_skynet/docs/README.md)**
 
-## Installation et exécution
+## Installation and execution
 
 ```bash
 git clone https://github.com/samajonathan9-source/ratiss-Skynet.git
@@ -108,4 +108,4 @@ cd ratiss_skynet && python scripts/test_transform_fast.py
 
 ---
 
-*© 2026 JOHNKING0 & Jonathan Evina.* La loi LCT est invariante. Le reste demeure ouvert à l'itération.
+*© 2026 JOHNKING0 & Jonathan Evina.* The LCT law is invariant. The rest remains open to iteration.
