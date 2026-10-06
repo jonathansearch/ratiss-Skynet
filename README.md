@@ -10,12 +10,12 @@
 
 > A classic language model predicts the most probable word. RATIS keeps that generation capability and adds the organ it lacks: the **measurement of its own structural coherence**. Where a conventional model hallucinates, RATIS detects the inconsistency and folds back. Where it guesses, RATIS proves.
 
-[![Nature](https://img.shields.io/badge/architecture-MCT%20%E2%80%94%20compr%C3%A9hension%20topologique-3fb950)](ratiss_skynet/docs/MCT.md)
-[![Loi fondatrice](https://img.shields.io/badge/loi-LCT%20%3A%20R%20%3D%20P__sig-4f9cff)](#)
-[![Identité](https://img.shields.io/badge/identit%C3%A9-scell%C3%A9e%20SHA--256-d97706)](ratiss_skynet/skynet/identity.py)
-[![Conditions AGI](https://img.shields.io/badge/conditions%20AGI-9%2F10%20d%C3%A9montr%C3%A9es-00b894)](ratiss_skynet/artifacts/RAPPORT_AGI.md)
-[![Langues](https://img.shields.io/badge/langues-FR%20%2F%20EN-00b894)](#)
-[![Licence](https://img.shields.io/badge/licence-propri%C3%A9taire-d97706)](#)
+[![Nature](https://img.shields.io/badge/architecture-MCT%20%E2%80%94%20topological%20understanding-3fb950)](ratiss_skynet/docs/MCT.md)
+[![Founding law](https://img.shields.io/badge/law-LCT%20%3A%20R%20%3D%20P__sig-4f9cff)](#)
+[![Identity](https://img.shields.io/badge/identity-sealed%20SHA--256-d97706)](ratiss_skynet/skynet/identity.py)
+[![AGI conditions](https://img.shields.io/badge/AGI%20conditions-9%2F10%20demonstrated-00b894)](ratiss_skynet/artifacts/RAPPORT_AGI.md)
+[![Languages](https://img.shields.io/badge/languages-FR%20%2F%20EN-00b894)](#)
+[![License](https://img.shields.io/badge/license-proprietary-d97706)](#)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0000--4092--5313-a6ce39)](https://orcid.org/0009-0000-4092-5313)
 
 Project led by **Jonathan Evina** (RATIS Labs, Cameroon).
@@ -99,7 +99,7 @@ ratiss-Skynet/
 ## Installation and execution
 
 ```bash
-git clone https://github.com/samajonathan9-source/ratiss-Skynet.git
+git clone https://github.com/jonathansearch/ratiss-Skynet.git
 cd ratiss-Skynet && git lfs pull
 pip install torch --index-url https://download.pytorch.org/whl/cpu
 pip install transformers peft scipy numpy
